@@ -1,6 +1,6 @@
 {
-  "name": "@wizsolucoes/angular-white-label",
-  "version": "1.4.2",
+  "name": "@rafaelllfreire3/angular-white-label",
+  "version": "1.0.2",
   "description": "Generates Wiz boilerplate Angular white-label application.",
   "private": false,
   "publishConfig": {
@@ -26,7 +26,7 @@
   "devDependencies": {
     "@types/jasmine": "~3.5.0",
     "@types/node": "^12.11.1",
-    "@wizsolucoes/ng-material-theme": "^1.1.1",
+    "@rafaelllfreire3/ng-material-theme": "^1.1.1",
     "jasmine": "^3.5.0"
   }
 }

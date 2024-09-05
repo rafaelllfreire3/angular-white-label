@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { ConfigurationService } from '../../services/configuration/configuration.service';
-import { SSOConectorService } from '@wizsolucoes/ngx-wiz-sso';
+import { SSOConectorService } from '@rafaelllfreire3/ngx-wiz-sso';
 import { Util } from '../../../shared/utils/util';
+import { ConfigurationService } from '../../services/configuration/configuration.service';
 
 @Component({
   selector: 'app-nav',

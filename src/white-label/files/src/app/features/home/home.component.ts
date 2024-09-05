@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { SSOConectorService } from '@wizsolucoes/ngx-wiz-sso';
+import { SSOConectorService } from '@rafaelllfreire3/ngx-wiz-sso';
 import { Util } from '../../shared/utils/util';
 
 @Component({

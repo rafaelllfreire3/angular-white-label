@@ -1,4 +1,4 @@
-import { Token } from '@wizsolucoes/ngx-wiz-sso';
+import { Token } from '@rafaelllfreire3/ngx-wiz-sso';
 
 export const fakeToken: Token = {
   tokenType: 'string',

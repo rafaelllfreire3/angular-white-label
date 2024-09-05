@@ -29,11 +29,11 @@
   - [Aprenda mais sobre schematics](#aprenda-mais-sobre-schematics)
 
 ## Sobre
-Schematic para gerar código boilerplate com a [arquitetura de referência para aplicações Angular "white label"](https://github.com/wizsolucoes/angular-white-label).
+Schematic para gerar código boilerplate com a [arquitetura de referência para aplicações Angular "white label"](https://github.com/rafaelllfreire3/angular-white-label).
 
 Compatível com as [versões suportadas do Angular](https://angular.io/guide/releases#support-policy-and-schedule) (^8.0.0, ^9.0.0 e ^10.0.0) e otimizado para as versões ^10.0.0.
 
-A biblioteca foi descontinuada. Utilize o [Angular Starter](https://github.com/wizsolucoes/angular-starter-schematic) para iniciar novas aplicações white label.
+A biblioteca foi descontinuada. Utilize o [Angular Starter](https://github.com/rafaelllfreire3/angular-starter-schematic) para iniciar novas aplicações white label.
 
 ## Uso
 
@@ -45,10 +45,10 @@ ng new my-app --style=scss
 cd my-app
 
 # Add Wiz stylesheet
-npm i @wizsolucoes/ng-material-theme
+npm i @rafaelllfreire3/ng-material-theme
 
 # Add white label arquitecture
-ng add @wizsolucoes/angular-white-label
+ng add @rafaelllfreire3/angular-white-label
 ```
 
 **IMPORTANTE: Este schematic supõe que a aplicação usa SASS e deve ser executado em projetos novos, pois faz a sobrescrita de arquivos.**
@@ -143,7 +143,7 @@ Repare nos exemplos a seguir como o tema, a logo e a disponibilidades de funcion
   "theme": {
     "primary-color": "#1E88E5"
   },
-  "logoImageUrl": "https://raw.githubusercontent.com/wizsolucoes/angular-white-label/master/docs/logowiz.png",
+  "logoImageUrl": "https://raw.githubusercontent.com/rafaelllfreire3/angular-white-label/master/docs/logowiz.png",
   "features": ["sales", "documentation"]
 }
 ```
@@ -151,7 +151,7 @@ Repare nos exemplos a seguir como o tema, a logo e a disponibilidades de funcion
 
 
 ### Estrutura e recursos
-A estrutura da aplicação segue a [estrutura da arquitetura de referência para aplicações Angular](https://github.com/wizsolucoes/angular-starter-schematic#sobre-a-aplicação-gerada) e tem os mesmos recursos. **Para alguns dos recursos é necessário fazer uma configuração antes de utilizar a aplicação**. Leia mais sobre a configuração dos recursos aqui: https://github.com/wizsolucoes/angular-starter-schematic#recursos.
+A estrutura da aplicação segue a [estrutura da arquitetura de referência para aplicações Angular](https://github.com/rafaelllfreire3/angular-starter-schematic#sobre-a-aplicação-gerada) e tem os mesmos recursos. **Para alguns dos recursos é necessário fazer uma configuração antes de utilizar a aplicação**. Leia mais sobre a configuração dos recursos aqui: https://github.com/rafaelllfreire3/angular-starter-schematic#recursos.
 
 
 ## Desenvolvimento do schematic
@@ -177,7 +177,7 @@ npm install
 # Buildar schematic
 npm run build
 
-# Gerar tarball eg. wizsolucoes-angular-white-label-1.0.1.tgz
+# Gerar tarball eg. rafaelllfreire3-angular-white-label-1.0.1.tgz
 npm pack
 ```
 
@@ -191,13 +191,13 @@ ng new my-app --style=scss
 cd my-app
 
 # Adicionar folha de estilos Wiz
-npm i @wizsolucoes/ng-material-theme
+npm i @rafaelllfreire3/ng-material-theme
 
 # Instalar schematic
-npm i --no-save ../path/to/angular-white-label-schematic/wizsolucoes-angular-white-label-1.0.1.tgz
+npm i --no-save ../path/to/angular-white-label-schematic/rafaelllfreire3-angular-white-label-1.0.1.tgz
 
 # Executar schematic
-ng g @wizsolucoes/angular-white-label:ng-add
+ng g @rafaelllfreire3/angular-white-label:ng-add
 ```
 
 ### Aprenda mais sobre schematics

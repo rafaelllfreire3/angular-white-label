@@ -1,11 +1,11 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { RouterTestingModule } from '@angular/router/testing';
-import { MainLayoutComponent } from './main-layout.component';
-import { NavComponent } from '../nav/nav.component';
 import { HttpClientTestingModule } from '@angular/common/http/testing';
-import { NgxWizSSOModule } from '@wizsolucoes/ngx-wiz-sso';
-import { ssoConfig } from '../../../../config/sso_config';
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { RouterTestingModule } from '@angular/router/testing';
+import { NgxWizSSOModule } from '@rafaelllfreire3/ngx-wiz-sso';
+import { ssoConfig } from '../../../../config/sso_config';
+import { NavComponent } from '../nav/nav.component';
+import { MainLayoutComponent } from './main-layout.component';
 
 describe('MainLayoutComponent', () => {
   let component: MainLayoutComponent;

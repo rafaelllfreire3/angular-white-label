@@ -1,7 +1,7 @@
 export const dependencies: { [key: string]: string } = {
   "@microsoft/applicationinsights-web": "^2.5.7",
-  "@wizsolucoes/ngx-wiz-sso": "^2.0.1",
-  "@wizsolucoes/wiz-loader": "^2.1.0",
+  "@rafaelllfreire3/ngx-wiz-sso": "^2.0.1",
+  "@rafaelllfreire3/wiz-loader": "^2.1.0",
   "ng2-currency-mask": "^9.0.2",
   "ngx-mask": "^9.1.2",
 };

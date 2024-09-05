@@ -1,10 +1,10 @@
 import {
-  Rule,
-  SchematicContext,
-  Tree,
-  chain,
-  schematic,
-  externalSchematic,
+    Rule,
+    SchematicContext,
+    Tree,
+    chain,
+    externalSchematic,
+    schematic,
 } from "@angular-devkit/schematics";
 
 // You don't have to export the function as default. You can also have more than one rule factory
@@ -14,7 +14,7 @@ export function ngAdd(_options: any): Rule {
     return chain([
       schematic("white-label", _options),
       externalSchematic(
-        "@wizsolucoes/ng-material-theme",
+        "@rafaelllfreire3/ng-material-theme",
         "ng-add",
         { 'white-label': true }
       ),

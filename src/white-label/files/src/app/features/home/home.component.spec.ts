@@ -1,8 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { SSOConectorService } from '@wizsolucoes/ngx-wiz-sso';
-import { HomeComponent } from './home.component';
-import { Util } from '../../shared/utils/util';
+import { SSOConectorService } from '@rafaelllfreire3/ngx-wiz-sso';
 import { of } from 'rxjs';
+import { Util } from '../../shared/utils/util';
+import { HomeComponent } from './home.component';
 
 describe('HomeComponent', () => {
   let component: HomeComponent;

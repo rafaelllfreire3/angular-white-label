@@ -1,12 +1,12 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { of } from 'rxjs';
-import { NavComponent } from './nav.component';
-import { ConfigurationService } from '../../services/configuration/configuration.service';
-import { SSOConectorService, NgxWizSSOModule } from '@wizsolucoes/ngx-wiz-sso';
-import { ssoConfig } from '../../../../config/sso_config';
-import { Util } from '../../../shared/utils/util';
-import { fakeToken } from '../../../../testing/fakes/fake_token';
+import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { NgxWizSSOModule, SSOConectorService } from '@rafaelllfreire3/ngx-wiz-sso';
+import { of } from 'rxjs';
+import { ssoConfig } from '../../../../config/sso_config';
+import { fakeToken } from '../../../../testing/fakes/fake_token';
+import { Util } from '../../../shared/utils/util';
+import { ConfigurationService } from '../../services/configuration/configuration.service';
+import { NavComponent } from './nav.component';
 
 describe('NavComponent', () => {
   let component: NavComponent;

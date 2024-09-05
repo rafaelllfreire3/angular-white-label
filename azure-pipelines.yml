@@ -67,8 +67,8 @@ stages:
         displayName: "Deprecate"
         steps:
           - task: Npm@1
-            displayName: "Deprecate @wizsolucoes/angular-white-label"
+            displayName: "Deprecate @rafaelllfreire3/angular-white-label"
             inputs:
               command: "custom"
-              customCommand: "deprecate @wizsolucoes/angular-white-label \"Pacote descontinuado. Utilize o '@wizsolucoes/angular-starter' para iniciar novas aplicações white label.\""
+              customCommand: "deprecate @rafaelllfreire3/angular-white-label \"Pacote descontinuado. Utilize o '@rafaelllfreire3/angular-starter' para iniciar novas aplicações white label.\""
               customEndpoint: "npmjs"

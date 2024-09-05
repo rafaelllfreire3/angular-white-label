@@ -3,7 +3,7 @@
 
 module.exports = {
   packages: {
-    '@wizsolucoes/ngx-wiz-sso': {
+    '@rafaelllfreire3/ngx-wiz-sso': {
       ignorableDeepImportMatchers: [
         /@angular\//,
       ]
